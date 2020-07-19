@@ -1,0 +1,30 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "repository": "",
+  "author": "Xvezda <xvezda@naver.com>",
+  "license": "",
+  "private": true,
+  "config": {
+    "entry": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "echo no test && exit 1",
+    "build": "cross-env NODE_ENV=production webpack",
+    "build:dev": "webpack",
+    "clean": "rm -rf dist/"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "typescript": "^3.9.7",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
