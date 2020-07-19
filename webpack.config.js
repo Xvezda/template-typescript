@@ -1,7 +1,7 @@
 const path = require('path');
 
 const config = {
-  mode: process.env.NODE_ENV && 'production' || 'develop',
+  mode: process.env.NODE_ENV && 'production' || 'development',
   entry: process.env.npm_package_config_entry,
   output: {
     filename: 'index.js',
